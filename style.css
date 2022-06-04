@@ -1,0 +1,207 @@
+@import url("https://fonts.google.com/specimen/Montserrat#standard-styles");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat" cursive;
+    scroll-behavior: smooth;
+  }
+
+   header{
+    padding: 10px;
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 4rem;
+  }
+
+  .home{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  button{
+    padding: 11px 50px;
+    padding-top: 8px;
+    margin-right: 59px;
+    display: flex;
+    display: none;
+    background-color: black;
+    color: white;
+  }
+
+  ul{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+    font: 1em sans-serif;
+    color: black;
+  }
+
+  .pr{
+    font-weight: bold;
+  }
+
+  .flow{
+    font: 1.7em sans-serif;
+    font-weight: bold;
+    padding-right: 70px;
+  }
+
+  .laranja{
+    background-image:url("./img/laranja\ azul\ recorte.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+  }
+
+ .text{
+   padding-top: 270px; 
+   padding-left: 140px; 
+    display: flex; 
+    flex-direction: column;
+
+  }
+
+  .tex{
+
+    color: white;
+    font: 5.5em sans-serif;
+    font-weight: bolder;
+  }
+
+  .text p{
+    padding-top: 75px;
+    color: white;
+    font: 1.5em sans-serif;
+  }
+
+  .box-img{
+    max-width: 1500px;
+    padding-top: 40px;
+    margin: 0 auto;
+  }
+
+  .box-img img{
+      width:300px;
+  }
+
+  .box-img figure{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  foteer{
+    padding: 10px;
+    width: 100%;
+    height: 7rem;
+  }
+
+  .end{
+    display: flex;
+    align-items: center;
+    max-width: 1230px;
+    margin: 0 auto;
+  }
+
+  .icones{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .copy{
+    display: flex;
+    align-items: center; 
+    padding-top: 20px; 
+    padding-left: 60px;
+  }
+
+  .copy p{
+     width: 400px;
+     padding-left: 10px;
+     font: 0.5em sans-serif;  
+  }
+
+  fieldset{
+      display: none;
+      width: 30px;
+      font: 0.6em sans-serif;
+      color: #CCCCCC;
+      background-color: #333333;
+      border: #707070;
+  }
+
+
+  @media (max-width: 365px) {
+      ul{
+          display: none;    
+      }
+
+      header{
+          height: 40px;
+      }
+
+      button{
+         position: relative;
+         bottom: 10px;
+         right: 13px;
+         display: initial;
+         background-color: black; 
+      }
+
+      .home{
+          width:100%;
+          display:flex;
+          }
+
+      .text{
+         position: relative;
+         right: 120px;
+         top: 20px;
+         font-size: 0.7em;
+      }
+
+      .laranja{
+          background-image:url(./img/laranja\ azul\ recorte@2x.png);
+      }
+
+      .end{
+          flex-direction: column;
+      }
+
+      .copy{
+         padding-top: 20px;
+         flex-direction: column;
+      }
+
+      .copy p{
+        font-size: 0.5rem;
+        width: 390px;
+      }
+
+      .copy h2{
+          padding-right: 200px;
+      }
+
+      .icones{
+        background-color: #7FDBD4;
+        text-align: center;
+      }
+
+      fieldset{
+        position: relative;
+        display: initial;
+        bottom: 50px;
+        left: 50px;
+        
+      }
+  }
